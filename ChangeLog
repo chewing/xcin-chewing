@@ -1,0 +1,34 @@
+2004-10-04  Jim Huang  <jserv@kaffe.org>
+
+	Replace hard-coded chewing data path with the one
+	from `pkg-config --variable=datadir chewing`.
+	
+2004-09-30  Jim Huang  <jserv@kaffe.org>
+
+	Upgrade xcin version from 2004-02-08 to 2004-09-21.
+
+2004-08-31  Kanru Chen  <kanru.96@stu.csie.ncnu.edu.tw>
+	
+	Add configuration of bAddPhraseForward.
+	
+2004-08-31  Kanru Chen  <kanru.96@stu.csie.ncnu.edu.tw>
+	
+	Add ShiftLeft, ShiftRight, EtenSymbolInput support.
+
+2004-08-06  Jim Huang  <jserv@kaffe.org>
+
+	Use new header and remove lifetime declaration.
+	
+2004-08-04  Kanru Chen  <kanru.96@stu.csie.ncnu.edu.tw>
+
+	Support input behavior of SpaceChewing.
+	Add space key for selecting candidate phrases.
+
+2004-07-29  Kanru Chen  <kanru.96@stu.csie.ncnu.edu.tw>
+
+	Fix bug that when delete all character in lcch buffer
+	will appear tsi choosing window.
+
+2004-07-10  Jim Huang  <jserv@kaffe.org>
+
+	First official xcin-chewing.
